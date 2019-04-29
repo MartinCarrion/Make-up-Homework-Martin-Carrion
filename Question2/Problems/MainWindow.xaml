@@ -19,7 +19,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="btnAnalyze" Content="Analyze Employees" HorizontalAlignment="Left" Margin="475,106,0,0" VerticalAlignment="Top" Width="130" Height="49" Click="BtnAnalyze_Click"/>
+        <Button x:Name="btnAnalyze" Content="Analyze" HorizontalAlignment="Left" Margin="475,106,0,0" VerticalAlignment="Top" Width="130" Height="49" Click="BtnAnalyze_Click"/>
         <TextBox x:Name="txtSelect" HorizontalAlignment="Left" Height="49" Margin="40,106,0,0" TextWrapping="Wrap" Text="Select Your Employee Text File" VerticalAlignment="Top" Width="200" IsEnabled="False"/>
         <ListBox x:Name="lstStarWars" HorizontalAlignment="Left" Height="100" Margin="60,265,0,0" VerticalAlignment="Top" Width="315"/>
         <Label x:Name="lblStarWars" Content="People who voted for StarWars" HorizontalAlignment="Left" Margin="60,239,0,0" VerticalAlignment="Top"/>

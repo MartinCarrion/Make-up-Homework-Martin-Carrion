@@ -41,8 +41,8 @@ namespace Problems
 
         public override string ToString()
         {
-            string employeeAsString = $"{Firstname}, {Lastname} {Gender.ToUpper()[0]} has an email of {Email} and has Voted {Vote} ";
-            return employeeAsString;
+            string VotersAsString = $"{Firstname}, {Lastname} {Gender.ToUpper()[0]} has an email of {Email} and has Voted {Vote} ";
+            return VotersAsString;
         }
 
 
